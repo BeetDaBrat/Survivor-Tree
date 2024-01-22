@@ -214,6 +214,9 @@ function load() {
 	updateTemp();
 	updateTabFormats()
 	loadVue();
+
+	//Custom
+	updateSurvivorEQ()
 }
 
 function loadOptions() {
