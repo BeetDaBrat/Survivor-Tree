@@ -410,3 +410,8 @@ function gridRun(layer, func, data, id) {
 	else
 		return layers[layer].grid[func];
 }
+
+// Custom Math Utils
+function getRandomInt(max) {
+	return Math.floor(Math.random() * max);
+}
